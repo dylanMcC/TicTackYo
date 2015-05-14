@@ -111,12 +111,7 @@ input[type="checkbox"]:checked ~ input[type="checkbox"]:checked ~ input[type="ch
   -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
 }
-@media (min-width: 450px) {
-  .tic-tac-toe label {
-    height: 140px;
-    width: 140px;
-  }
-}
+
 .tic-tac-toe label:hover {
   background-color: #5adca9;
 }
@@ -153,6 +148,12 @@ input[type="checkbox"]:checked ~ input[type="checkbox"]:checked ~ input[type="ch
   top: 5px;
   text-align: center;
   z-index: 11;
+}
+label{
+  font-family: "FontAwesome";
+  font-size: 45px;
+  margin-top: -22.5px;
+  text-align: center;
 }
 @media (min-width: 450px) {
   .tic-tac-toe .end {
